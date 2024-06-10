@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 import { LoginLayoutComponent } from '../../components/login-layout/login.layout.component';
 
 @Component({
-  selector: 'app-login',
+  selector: 'app-login-page',
   standalone: true,
   imports: [
     LoginLayoutComponent
   ],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.scss'
+  templateUrl: './login.page.component.html',
+  styleUrl: './login.page.component.scss'
 })
-export class LoginComponent {
+export class LoginPageComponent {
 
 }
